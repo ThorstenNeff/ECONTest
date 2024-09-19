@@ -21,5 +21,4 @@ torchvision
 fvcore
 iopath
 pyembree
-cupy
 git+https://github.com/YuliangXiu/rembg.git

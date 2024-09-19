@@ -5,7 +5,7 @@ mkdir -p data/smpl_related/models
 
 # SMPL (Male, Female)
 echo -e "\nDownloading SMPL..."
-cp /content/drive/MyDrive/TechConda/SMPL_python_v.1.0.0.zip /content/ECON/data/smpl_related/models/SMPL_python_v.1.0.0.zi
+cp /content/drive/MyDrive/TechConda/SMPL_python_v.1.0.0.zip /content/ECON/data/smpl_related/models/SMPL_python_v.1.0.0.zip
 unzip data/smpl_related/models/SMPL_python_v.1.0.0.zip -d data/smpl_related/models
 mv data/smpl_related/models/smpl/models/basicModel_f_lbs_10_207_0_v1.0.0.pkl data/smpl_related/models/smpl/SMPL_FEMALE.pkl
 mv data/smpl_related/models/smpl/models/basicmodel_m_lbs_10_207_0_v1.0.0.pkl data/smpl_related/models/smpl/SMPL_MALE.pkl
